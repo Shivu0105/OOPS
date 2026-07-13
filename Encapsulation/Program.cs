@@ -62,11 +62,15 @@ namespace Encapsulation
 
             Console.WriteLine(carName);
 
-            c.CarInfo();
             
-            c.SetCarName("BMW");
+            //c.SetCarName("BMW");
+            //c.CarInfo();
+
+            c.SetCarName("Audi");
+            Console.WriteLine(c.GetCarName());
 
             Console.WriteLine(c.CarColor);
+
             c.CarColor = "Black";
             Console.WriteLine(c.CarColor);
             
