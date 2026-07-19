@@ -37,7 +37,7 @@ namespace Encapsulation
   
 
 
-        public Car(string carName, string carModel, string  carColor)
+        public Car(string carName, string carModel, string  carColor) // Parameter
         {
             this.carName = carName;
             this.carModel = carModel;
@@ -63,8 +63,8 @@ namespace Encapsulation
             Console.WriteLine(carName);
 
             
-            //c.SetCarName("BMW");
-            //c.CarInfo();
+            c.SetCarName("BMW");
+            c.CarInfo();
 
             c.SetCarName("Audi");
             Console.WriteLine(c.GetCarName());
