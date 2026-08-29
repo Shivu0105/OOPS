@@ -12,3 +12,4 @@ C:\Users\shiva\source\repos\Student\Constructor\obj\Debug\net10.0\refint\Constru
 C:\Users\shiva\source\repos\Student\Constructor\obj\Debug\net10.0\Constructor.pdb
 C:\Users\shiva\source\repos\Student\Constructor\obj\Debug\net10.0\Constructor.genruntimeconfig.cache
 C:\Users\shiva\source\repos\Student\Constructor\obj\Debug\net10.0\ref\Constructor.dll
+C:\Users\shiva\source\repos\Student\Constructor\obj\Debug\net10.0\Constructor.sourcelink.json

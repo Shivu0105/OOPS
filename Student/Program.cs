@@ -7,7 +7,7 @@
         string color;
         string type;
 
-        void Writing()
+        void Writing() 
         {
             Console.WriteLine("Pen is Writting " + Writing);
         }
