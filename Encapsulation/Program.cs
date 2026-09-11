@@ -10,16 +10,22 @@ namespace Encapsulation
         private string carColor;
 
 
-        //Getter
-        public string GetCarName()
-        {
-            return this.carName;
-        }
+        ////Getter
+        //public string GetCarName()
+        //{
+        //    return this.carName;
+        //}
 
-        //Setter
-        public void SetCarName(string carName)
+        ////Setter
+        //public void SetCarName(string carName)
+        //{
+        //    this.carName = carName;
+        //}
+
+        public string CarName
         {
-            this.carName = carName;
+            get { return this.carName; }
+            set { this.carName = value; }
         }
 
         // Modern way to write Getter & Setter
@@ -34,12 +40,10 @@ namespace Encapsulation
             get { return this.carModel; }
             set { this.carModel = value;}
         }
-  
 
-
-        public Car(string carName, string carModel, string  carColor) // Parameter
+        public Car(string carNa, string carModel, string  carColor) // Parameter
         {
-            this.carName = carName;
+            carName = carNa;
             this.carModel = carModel;
             this.carColor = carColor;
         }
@@ -58,24 +62,31 @@ namespace Encapsulation
 
             Car c = new Car("Honda","City","Brown");
 
-            string carName = c.GetCarName();
+            //string carName = c.GetCarName();
 
-            Console.WriteLine(carName);
+            //Console.WriteLine(carName);
 
-            
-            c.SetCarName("BMW");
-            c.CarInfo();
 
-            c.SetCarName("Audi");
-            Console.WriteLine(c.GetCarName());
+            //c.SetCarName("BMW");
+            //c.CarInfo();
 
-            Console.WriteLine(c.CarColor);
+            //c.SetCarName("Audi");
+            //Console.WriteLine(c.GetCarName());
+
+
+            //Console.WriteLine(c.CarColor);
+
+            c.CarName = "Hero";
+            Console.WriteLine(c.CarName);
 
             c.CarColor = "Black";
             Console.WriteLine(c.CarColor);
             
             c.CarModel = "Splender";
             Console.WriteLine(c.CarModel);
+
+
+            // Server  => 24x7 PC  => 
         }
     }
 }
